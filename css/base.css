@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  display: block;
+}
+i, em, b, strong, h1, h2, h3, h4, h5, h6 , cite{
+  font-style: normal;
+  font-weight: 100;
+}
+input, img {
+  display: block;
+  border: none;
+}
+ul, ol, li, dl, dt, dd {
+  list-style: none;
+}
+table {
+  text-align: center;
+  vertical-align: middle;
+}
+th {
+  text-align: center;
+  vertical-align: middle;
+}
+body, a, input, button {
+  font-family: "Microsoft Yahei", "Droid Sans Fallback", "Arial", "Helvetica", "sans-serif", "宋体";
+  outline: none;
+  text-decoration: none;
+}
+html{
+  font-size: 100px;
+}
+table {
+  text-align: center;
+  vertical-align: middle;
+}
+th {
+  text-align: center;
+  vertical-align: middle;
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 200px;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 150px;
+  }
+}
+@media (max-width: 414px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 80px;
+  }
+}

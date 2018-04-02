@@ -1,0 +1,137 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	.swiper-wrapper{
+		.slide{
+			width: 100%;
+			height: 100%;
+			position: relative;
+			.music{
+				z-index: 99;
+				position: absolute;
+				right: 15px;
+				top: 30px;
+				width: 35px;
+				height: 35px;
+				background-color: #f39aa0;
+				border-radius: 50%;
+				img{
+					width: 100%;
+				}
+				@-webkit-keyframes rotation{
+					from {-webkit-transform: rotate(0deg);}
+					to {-webkit-transform: rotate(360deg);}
+				}
+
+				.run{
+					-webkit-transform: rotate(360deg);
+					animation: rotation 3s linear infinite;
+					-moz-animation: rotation 3s linear infinite;
+					-webkit-animation: rotation 3s linear infinite;
+					-o-animation: rotation 3s linear infinite;
+				}
+				.noRun{
+					display: none;
+				}
+			}
+		}
+		.slide0{
+			background-color: #fff;
+			
+			.happy{
+				position: absolute;
+				left: 100px;
+				font-family: yuanhei;
+				border-color: rgb(0,0,0);
+				top: 30px;
+				font-size: 48px;
+				font-weight: bold;
+				color:rgb(242, 215, 190);
+				text-shadow:5px 2px 6px #000;
+			}
+
+			.dog{
+				position: absolute;
+				left: 100px;
+				font-family: yuanhei;
+				border-color: rgb(0,0,0);
+				bottom: 160px;
+				font-size: 48px;
+				font-weight: bold;
+				color:rgb(242, 215, 190);
+			}
+		}
+		.slide1{
+			.year{
+				position: absolute;
+				right: 65px;
+				top: 38%;
+				color: #fff;
+				font-size: 20px;
+
+			}
+			.year1{
+				position: absolute;
+				right: 52px;
+				top: 42%;
+				color: #fff;
+				font-size: 20px;
+
+			}
+			.ph{
+				position: absolute;
+				left: 20%;
+				bottom: 130px;
+				font-size: 16px;
+				color: #fff;
+			}
+		}
+		.slide2{
+			.ph1{
+				position: absolute;
+				left: 50px;
+				bottom: 50px;
+				font-size: 16px;
+				color: #fff;
+				text-align: center;
+			}
+		}
+		.slide3{
+			.ph3{
+				position: absolute;
+				left: 18%;
+				top: 20%;
+				font-size: 16px;
+				color: #fff;
+			}
+		}
+		.slide4{
+			.ph4{
+				position: absolute;
+				left: 18%;
+				top: 34%;
+				font-size: 16px;
+				color: #fff;
+			}
+		}
+		.slide5{
+			.author{
+				z-index: 10;
+				position: absolute;
+				left: 30%;
+				top: 55px;
+				font-size: 20px;
+				color: #fff;
+			}
+		}
+	}
+}
+
